@@ -1,0 +1,44 @@
+.movies-actions {
+    background-color: #0d1147ce;
+    margin: 1rem 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    border-radius: 13px;
+    display: flex;
+    width: 700px;
+}
+.movie-action h2,
+.movie-action p {
+  font-size: 1.25rem;
+  margin: 0;
+}
+.movies-actions h2 {
+    color: #ececec;
+    margin-bottom: 1rem;
+  }
+
+.movie-actions p {
+    color: rgb(253, 253, 253);
+    display: inline;
+    background: #a55522;
+    padding: 0.25rem 1rem;
+    border-radius: 15px;
+  }
+.movie-action h2 {
+    color: #ececec;
+    margin-bottom: 1rem;
+  }
+
+.movies-action__image {
+    flex: 1;
+    border-radius: 10px 0 0 10px;
+    overflow: hidden;
+}
+.movies-action__image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+.movie-action__info {
+    flex: 2;
+    padding: 1rem;
+}
